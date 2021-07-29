@@ -52,7 +52,7 @@ typedef struct _EQU8_DETECTION_TABLE
     DWORD count; // Number of entries
     EQU8_DETECTION_ENTRY entries[0x20];
 }EQU8_DETECTION_TABLE, * PEQU8_DETECTION_TABLE;
-static_assert(sizeof(EQU8_DETECTION_TABLE) == 0x1A4, "table size must be 0x1A0");
+static_assert(sizeof(EQU8_DETECTION_TABLE) == 0x1A4, "table size must be 0x1A0 + 4");
 
 bool init()
 {
