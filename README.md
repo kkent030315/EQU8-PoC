@@ -17,3 +17,4 @@ https://www.godeye.club/2021/07/28/001-abusing-equ8-anti-cheat.html
 
 - `EQU8_IOCTL_ENABLE_PROTECT`: Abusing EQU8's object callback protection
 - `EQU8_IOCTL_FETCH_DETECTION_TABLE`: Fetch detection table and erase
+    - access-mask, `OB_PRE_OPERATION_INFORMATION->KernelHandle`, requestor-pid, target-pid
